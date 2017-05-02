@@ -7,9 +7,9 @@ $ ('.close').click(function () {
 });
 
 $ ('button.submit').click(function (){
-  $ ('input').addClass('.error');
+  $ ('input').addClass('error');
 });
 
 $ ('input').mouseover(function (){
-  $ (this).removeClass('.error');
+  $ (this).removeClass('error');
 });
