@@ -5,3 +5,11 @@ $ ('.signin').click(function () {
 $ ('.close').click(function () {
   $ ('.modal').fadeOut('slow');
 });
+
+$ ('button.submit').click(function (){
+  $ ('input').addClass('.error');
+});
+
+$ ('input').mouseover(function (){
+  $ (this).removeClass('.error');
+});
